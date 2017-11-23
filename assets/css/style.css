@@ -25,7 +25,7 @@ body {
 
 #yourname {
     line-height: 1;
-    height: 50px;
+    height: 80px;
     background-color: #4aaaa5;
     padding: 30px;
     color: #fff;
@@ -43,14 +43,21 @@ body {
     background-color: #FFA500;
 }
 
-.aboutheader {
-    height: 50px;
-    padding: 10px;
-    color: #777777;
-    font-family: Times New Roman;
-    font-size: 39px;
-    background-color: #fff;
-    float: right;
+
+a:link {
+    text-decoration:none;
+    color:#FFA500;
+    text-align: right;
+    font-size:27px;
+
+
+}
+.navigation {
+    text-align:right;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    height:50px;
+    line-height: 1;
+    padding:30px;
 }
 
 
@@ -67,7 +74,6 @@ body {
 #me {
     width: 60%;
     float: left;
-    height: 300px;
     margin-left: 10px;
 }
 
@@ -84,7 +90,7 @@ body {
     margin-bottom: 20px;
     width: 50%;
     text-align: center;
-    height: 20px;
+  
 }
 
 #projectpictures {
@@ -108,7 +114,7 @@ body {
     float: right;
     background-color: #F0F8FF;
     width: 270px;
-    height: 100px;
+    height: 50px;
 }
 
 #connectme {
@@ -177,6 +183,7 @@ input {
     width: 40%;
     float: left;
 }
+
 
 
 
