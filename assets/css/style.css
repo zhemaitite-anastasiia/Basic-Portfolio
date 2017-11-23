@@ -39,9 +39,7 @@ body {
     background-color: #FFA500;
 }
 
-#portfolio:hover {
-    background-color: #FFA500;
-}
+
 
 
 a:link {
@@ -58,6 +56,7 @@ a:link {
     height:50px;
     line-height: 1;
     padding:30px;
+    color:#FFA500;
 }
 
 
@@ -78,29 +77,110 @@ a:link {
 }
 
 
-#contact {
-    color: #FF8C00;
-    font-size: 20px;
+#contactheader {
+    color:#FF8C00;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 50%;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 #portfolio {
-    color: #4aaaa5;
-    font-size: 45px;
+    color: #FF8C00;
+    font-size: 40px;
     margin-left: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
     width: 50%;
     text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
   
 }
 
 #projectpictures {
     width: 55%;
     float: left;
-    margin: 20px 5% 24px 5%;
+    margin: 3px 5% 3px 5%;
 }
 
-#firstproject {
-    position: relative;
+
+
+#box1 {
+    position:relative;
+    float:left;
+    display:inline-block;
+  
+
+
+  }
+#box2 {
+    position:relative;
+    float:left;
+    display:inline-block;
+    
+
+
+}
+#box3 {
+    position:relative;
+    float:left;
+    display:inline-block;
+
+}
+#box4 {
+    position:relative;
+    float:left;
+    display:inline-block;
+
+}
+#box5 {
+    position:relative;
+    float:left;
+    display:inline-block;
+
+}
+#box1 a {
+    position:absolute;
+    bottom:5px;
+    right:5px;
+    background:#fff;
+    color:#000;
+    padding:5px 25px 5px 25px;
+}
+#box2 a {
+    position:absolute;
+    bottom:5px;
+    right:5px;
+    background:#fff;
+    color:#000;
+    padding:5px 25px 5px 25px;
+}
+#box3 a{
+    position:absolute;
+    bottom:5px;
+    right:5px;
+    background:#fff;
+    color:#000;
+    padding:5px 25px 5px 25px;
+}
+#box4 a{
+    position:absolute;
+    bottom:5px;
+    right:5px;
+    background:#fff;
+    color:#000;
+    padding:5px 25px 5px 25px;
+}
+#box5 a{
+    position:absolute;
+    bottom:5px;
+    right:5px;
+    background:#fff;
+    color:#000;
+    padding:5px 25px 5px 25px;
 }
 
 #form {
@@ -163,13 +243,7 @@ input {
     height: 30px;
 }
 
-#contactheader {
 
-    font-size: 24px;
-    color: #4aaaa5;
-    width: 50%;
-    text-align: center;
-}
 
 #message {
     width: 100%;
